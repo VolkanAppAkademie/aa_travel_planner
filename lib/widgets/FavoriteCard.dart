@@ -1,3 +1,8 @@
+import 'package:aa_travel_planner/FavoritesRepository.dart';
+import 'package:aa_travel_planner/main.dart';
+import 'package:aa_travel_planner/screens/FavoritesDetailsScreen.dart';
+import 'package:flutter/material.dart';
+
 class FavoriteCard extends StatelessWidget {
   final Destination destination;
   final VoidCallback onRemove;

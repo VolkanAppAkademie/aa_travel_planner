@@ -1,3 +1,7 @@
+import 'package:aa_travel_planner/main.dart';
+import 'package:aa_travel_planner/repositories/FavoritesRepository.dart';
+import 'package:flutter/material.dart';
+
 class FavoritesDetailsScreen extends StatelessWidget {
   final Destination destination;
   final FavoritesRepository favoritesRepository;
